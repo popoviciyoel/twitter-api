@@ -16,10 +16,10 @@ tweets: [{
 ```  
   3.  `Tweet Schema` 
  Schema is defined inside of `models/Tweet.js`. A Tweet has the following 3 fields:  
-    * content - String 
-    * likes - Number  
-    * dislikes - Number
-    4.  `users router`  endpoints are inside of `routes/api/v1/Users.js`.  
+      * content - String 
+     * likes - Number  
+     * dislikes - Number
+4.  `users router`  endpoints are inside of `routes/api/v1/Users.js`.  
       * `/api/v1/users` - thisreturns all the documents inside the `users` collection.    
       * `/api/v1/user`  - this generates a new user document inside of the `users` collection.   
       * `/api/v1/tweets` - this returns all the documents inside the `tweets` collection.   
