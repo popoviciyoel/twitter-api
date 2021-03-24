@@ -16,6 +16,7 @@ tweets: [{
 ```  
   3.  `Tweet Schema` 
  Schema is defined inside of `models/Tweet.js`. A Tweet has the following 3 fields:
+ 
      * content - String 
      * likes - Number  
      * dislikes - Number
